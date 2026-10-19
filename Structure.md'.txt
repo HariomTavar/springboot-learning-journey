@@ -1,0 +1,24 @@
+📁 library-management-system          ← main project folder
+├── 📄 README.md
+├── 📄 .gitignore
+├── 📁 bin                             ← compiled files go here (auto-created)
+└── 📁 src                             ← all your code lives here
+    └── 📁 com
+        └── 📁 hariom
+            └── 📁 library
+                ├── 📄 Main.java
+                ├── 📁 model
+                │   ├── 📄 Person.java
+                │   ├── 📄 Member.java
+                │   ├── 📄 Librarian.java
+                │   └── 📄 Book.java
+                ├── 📁 exception
+                │   ├── 📄 BookNotFoundException.java
+                │   ├── 📄 BookNotAvailableException.java
+                │   ├── 📄 MemberNotFoundException.java
+                │   └── 📄 LimitExceededException.java
+                ├── 📁 service
+                │   ├── 📄 Searchable.java
+                │   └── 📄 Library.java
+                └── 📁 util
+                    └── 📄 IdGenerator.java
